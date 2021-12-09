@@ -1,0 +1,209 @@
+
+@font-face {
+    font-family: muliRegular;
+    src: url(../../assets/fonts/muli/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: gothic700;
+    src: url(../../assets/fonts/centurygothic/GOTHICB0.TTF);
+}
+
+@font-face {
+    font-family: binx;
+    src: url(../../assets/fonts/Binx.ttf);
+}
+
+@font-face {
+	font-family: gothic;
+	src: url(../../assets/fonts/SansSerifFLF-Demibold.otf)
+}
+@font-face {
+	font-family: 'gothic-sub';
+	src: url(../../assets/fonts/SansSerifFLF-Demibold.otf)
+}
+
+
+
+.support_showcase{
+    height: 650px;
+    margin-top: -100px;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-image:url('../../assets/svg/Support/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    
+    overflow-x:hidden;
+    position: relative;
+  
+}
+.sprinkleLeft{
+    position: absolute;
+    top:300px;
+    left:-100px;
+}
+
+.sprinkleRight img{
+    position: absolute;
+    top:100px;
+    right:-100px;
+    /* overflow:hidden; */
+}
+.support_showcase_btn{
+    color:#446beb;
+    font-size:50px;
+    background:#fff;
+    padding:0px 20px;
+    outline:none;
+    border:none;
+}
+.support_showcase_text{
+    width: 75%;
+    margin: 130px auto 50px auto; 
+    text-align: center;
+    color:#fff;
+}
+.support_showcase_text h1{
+    font-family: gothic;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+.support_showcase_text p{
+    margin: 50px auto 30px auto;
+    font-family: muliRegular;
+    font-size: 16px;
+
+}
+.support_showcase_text span{
+    font-size: 50px;
+    font-family: binx;
+    
+}
+.follow_div{
+    display:flex;
+    justify-content:center;
+    width:90%;
+    margin-left:auto
+}
+.support_showcase_btn{
+    font-size: 50px;
+    font-family: binx;
+    padding:5px 15px;
+    margin:0px 20px;
+}
+.support_showcase_img{
+    width: 200px;
+}
+.support_help{
+    width: 100%;
+    
+}
+.support_help_top{
+
+    
+    width: 85%;
+    margin:100px auto;
+    text-align: center;
+}
+.support_help_head{
+    font-size: 50px;
+    font-family: gothic;
+    margin-bottom: 70px;
+    color: #446beb;
+    font-weight: 700;
+}
+.support_card_text{
+    font-family: gothic;
+    font-size: 20px;
+    text-align: center;
+}
+.support_grid{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 0px auto 100px auto;
+}
+.support_grid div img{
+    margin-bottom: 15px;
+}
+
+.support_grid_two{
+    display:grid;
+    grid-template-columns: 50% 50%;;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.support_grid_two >div{
+    height: 150px;
+    background:white;
+    box-shadow: 0px 0px 25.2px 4.8px rgba(167, 167, 167, 0.25);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 15px;
+    border-radius: 25px;
+    width: 95%;
+    margin-bottom: 90px;
+}
+.support_grid_two>div:first-child{
+    margin-right: 30px;
+}
+.support_grid_two>div img{
+    margin-right: 20px;
+}
+@media only screen and (max-width: 992px) {
+   .support_showcase{
+       height: 800px;
+   }
+    .support_showcase_text{
+        width: 85%;
+        margin: 130px auto 50px auto; 
+        text-align: center;
+        color:#fff;
+    }
+    .support_showcase_text h1{
+        
+        font-size: 45px; 
+        margin-bottom: 10px;  
+    }
+    .sprinkleLeft{
+        top:60%;
+    }
+    .support_showcase_text span{
+        font-size: 28px;
+        font-family: binx;
+        
+    }
+    .support_showcase_btn{
+        font-size: 28px;
+        font-family: binx;      
+        margin:0px 20px;
+    }
+    .support_showcase_img{
+        width: 120px;
+    }
+    .follow_div{
+        margin-top: 70px;
+    }
+    .support_help_head{
+        font-size: 35px;
+    }
+    .support_grid{
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+    }
+    .support_grid_two{
+        grid-template-columns: auto;
+    
+       
+    }
+    .support_grid_two >div{
+        margin:20px;
+    }
+}
